@@ -21,18 +21,3 @@
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }
-```
-
----
-
-## 📁 フォルダ構造を作成
-```
-video-feedback-app/
-  ├── pages/
-  │   ├── index.tsx
-  │   └── api/
-  │       └── analyze.ts
-  ├── package.json
-  ├── next.config.js
-  ├── tsconfig.json
-  └── .gitignore
